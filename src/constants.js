@@ -1,0 +1,36 @@
+const TILE_SIZE = 20
+
+const COLORS = {
+  SNAKE: "#000000",
+  APPLE: "#ff0000",
+  BACKGROUND: "#eee8dd"
+}
+
+const KEYS = {
+  LEFT: 37,
+  UP: 38,
+  RIGHT: 39,
+  DOWN: 40,
+}
+
+const DIRECTIONS = {
+  LEFT:   0,
+  UP:     1,
+  RIGHT:  2,
+  DOWN:   3,
+}
+
+const KEY_TO_DIRECTION = {
+  [KEYS.LEFT]:  DIRECTIONS.LEFT,
+  [KEYS.UP]:    DIRECTIONS.UP,
+  [KEYS.RIGHT]: DIRECTIONS.RIGHT,
+  [KEYS.DOWN]:  DIRECTIONS.DOWN,
+}
+
+export {
+  COLORS,
+  DIRECTIONS,
+  KEY_TO_DIRECTION,
+  KEYS,
+  TILE_SIZE,
+}
