@@ -155,7 +155,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const randomInBoard = () => Math.floor(Math.random() * 19)
+const randomInBoard = () => Math.floor(Math.random() * 20)
 
 const generateApple = () => Object(_tile__WEBPACK_IMPORTED_MODULE_1__["Tile"])( randomInBoard(), randomInBoard() )
 
