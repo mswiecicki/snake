@@ -1,7 +1,7 @@
 import { checkCollision } from './movement'
 import { Tile } from './tile'
 
-const randomInBoard = () => Math.floor(Math.random() * 19)
+const randomInBoard = () => Math.floor(Math.random() * 20)
 
 const generateApple = () => Tile( randomInBoard(), randomInBoard() )
 
